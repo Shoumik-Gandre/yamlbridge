@@ -2,13 +2,13 @@
 
 ### Issue: Initialize the package skeleton
 
-* [ ] Create `src/`-based project layout
-* [ ] Add `src/yamlbridge/__init__.py`
-* [ ] Add `src/yamlbridge/cloudformation.py`
-* [ ] Add `src/yamlbridge/exceptions.py`
-* [ ] Add `tests/` directory
-* [ ] Add `README.md`
-* [ ] Add `LICENSE`
+* [x] Create `src/`-based project layout
+* [x] Add `src/yamlbridge/__init__.py`
+* [x] Add `src/yamlbridge/cloudformation.py`
+* [x] Add `src/yamlbridge/exceptions.py`
+* [x] Add `tests/` directory
+* [x] Add `README.md`
+* [x] Add `LICENSE`
 
 ### Issue: Set up packaging and local development
 
