@@ -32,6 +32,8 @@ dependencies = [
 dev = [
     "mypy>=1.19.1",
     "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+    "pytest-html>=4.2.0",
     "ruff>=0.15.6",
 ]
 
@@ -51,7 +53,18 @@ indent-style = "space"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
-addopts = "-ra"
+addopts = [
+  "-ra",
+  "-v",
+  "--junitxml=.test-reports/junit.xml",
+  "--cov=yamlbridge",
+  "--cov-report=term-missing",
+  "--cov-report=html:.test-reports/coverage-html",
+  "--cov-report=xml:.test-reports/coverage.xml",
+  "--html=.test-reports/unit-tests.html"
+]
+junit_family = "xunit2"
+junit_duration_report = "total"
 
 [tool.mypy]
 python_version = "3.9"
