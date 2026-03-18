@@ -42,23 +42,23 @@
 
 ### Issue: Define the v0.1 scope
 
-* [ ] Document v0.1 goals
-* [ ] Document non-goals
-* [ ] Lock first dialect to CloudFormation
-* [ ] Decide safe-loading-only policy
-* [ ] Decide normalization contract for CloudFormation short tags
+* [x] Document v0.1 goals
+* [x] Document non-goals
+* [x] Lock first dialect to CloudFormation
+* [x] Decide safe-loading-only policy
+* [x] Decide normalization contract for CloudFormation short tags
 
 ### Issue: Add first public API tests
 
-* [ ] Test `from yamlbridge import CfnYamlLoader`
-* [ ] Test `yaml.load(..., Loader=CfnYamlLoader)` works
-* [ ] Test `CfnYamlLoader` subclasses `yaml.SafeLoader`
+* [x] Test `from yamlbridge import CfnYamlLoader`
+* [x] Test `yaml.load(..., Loader=CfnYamlLoader)` works
+* [x] Test `CfnYamlLoader` subclasses `yaml.SafeLoader`
 
 ### Issue: Implement minimal `CfnYamlLoader`
 
-* [ ] Create `CfnYamlLoader(yaml.SafeLoader)`
-* [ ] Export `CfnYamlLoader` from `yamlbridge.__init__`
-* [ ] Make import path stable for README examples
+* [x] Create `CfnYamlLoader(yaml.SafeLoader)`
+* [x] Export `CfnYamlLoader` from `yamlbridge.__init__`
+* [x] Make import path stable for README examples
 
 ---
 
