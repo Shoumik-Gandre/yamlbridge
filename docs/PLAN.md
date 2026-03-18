@@ -12,20 +12,20 @@
 
 ### Issue: Set up packaging and local development
 
-* [ ] Add `pyproject.toml`
-* [ ] Define package metadata for `yamlbridge`
-* [ ] Configure build backend
-* [ ] Add dependency on `PyYAML`
-* [ ] Add optional dev dependencies
-* [ ] Verify package installs in editable mode
+* [x] Add `pyproject.toml`
+* [x] Define package metadata for `yamlbridge`
+* [x] Configure build backend
+* [x] Add dependency on `PyYAML`
+* [x] Add optional dev dependencies
+* [x] Verify package installs in editable mode
 
 ### Issue: Set up code quality tooling
 
-* [ ] Add `pytest`
-* [ ] Add `ruff`
-* [ ] Add `mypy` or `pyright`
-* [ ] Add formatting/lint config to `pyproject.toml`
-* [ ] Add a simple local developer workflow
+* [x] Add `pytest`
+* [x] Add `ruff`
+* [x] Add `mypy` or `pyright`
+* [x] Add formatting/lint config to `pyproject.toml`
+* [x] Add a simple local developer workflow
 
 ### Issue: Set up CI
 
