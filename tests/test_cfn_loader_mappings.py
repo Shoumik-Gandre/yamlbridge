@@ -59,11 +59,7 @@ def test_nested_mapping_values_can_contain_intrinsics():
             "Example": {
                 "Fn::Transform": {
                     "Name": "AWS::Include",
-                    "Parameters": {
-                        "Location": {
-                            "Fn::Sub": "s3://${Bucket}/snippet.yaml"
-                        }
-                    },
+                    "Parameters": {"Location": {"Fn::Sub": "s3://${Bucket}/snippet.yaml"}},
                 }
             }
         }

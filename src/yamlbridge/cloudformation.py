@@ -1,5 +1,5 @@
-from collections.abc import Mapping, Sequence
-from typing import Any, Hashable, Union
+from collections.abc import Hashable, Mapping, Sequence
+from typing import Any, Union
 
 import yaml
 

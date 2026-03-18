@@ -35,6 +35,8 @@ dev = [
     "pytest-cov>=7.0.0",
     "pytest-html>=4.2.0",
     "ruff>=0.15.6",
+    "twine>=6.2.0",
+    "types-pyyaml>=6.0.12.20250915",
 ]
 
 [tool.ruff]
@@ -73,3 +75,7 @@ strict = true
 pretty = true
 show_error_codes = true
 
+[project.urls]
+Homepage = "https://github.com/Shoumik-Gandre/yamlbridge"
+Repository = "https://github.com/Shoumik-Gandre/yamlbridge"
+Issues = "https://github.com/Shoumik-Gandre/yamlbridge/issues"
